@@ -1,0 +1,15 @@
+proportion of classes in the dataset
+1 - underweight  0.045342   73
+2 - normal       0.408696   658
+3 - overweight   0.367702   592
+4 - obese        0.178261   287
+
+H(S)-> Entropy for the entire dataset, formula is
+       n
+    -  Σ   p . log ( p )
+      i=1   i     2   i
+
+    -> -4.463 x 0.045342 + -1.291 x 0.408696 + -1.4434 x 0.367702 + -2.488 x 0.178261
+    -> -0.20236 + -0.5276 + -0.5307 + -0.4435
+    ->  [1.70416]
+
